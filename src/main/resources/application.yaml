@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: questionnaire
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
